@@ -4,7 +4,7 @@ Source code for my personal academic webpage.
 
 I am a PhD candidate at Cnam and ECE Engineering School (LyRIDS / CEDRIC laboratories), working on certified dynamic reconfiguration of Time-Sensitive Networks (TSN) with network calculus. Before that, I worked on blockchain, zero-knowledge proofs and privacy-preserving systems for healthcare and genomic data at the [IBISC Laboratory](https://www.ibisc.univ-evry.fr/), Université d'Évry Paris-Saclay.
 
-**Live site:** https://hazel260802.github.io/academic-website-template/
+**Live site:** https://hazel260802.github.io/
 
 ## What's on the site
 
