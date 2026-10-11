@@ -4,11 +4,17 @@
   {% capture line %}<strong>{{ talk.title }}</strong>{% if talk.event %}. {{ talk.event }}{% endif %}{% if talk.location %}, {{ talk.location }}{% endif %}{% if talk.date %}, {{ talk.date }}{% endif %}{% endcapture %}
   {% assign last_char = line | slice: -1 %}
   <div class="text-justify">{{ line }}{% unless last_char == "." %}.{% endunless %}</div>
-  {% if talk.url or talk.slides or talk.video %}
+  {% if talk.article or talk.pdf or talk.poster or talk.demo or talk.code or talk.scholar or talk.url or talk.slides or talk.video %}
   <div class="pub-actions">
-    {% if talk.url %}<a href="{{ talk.url }}" target="_blank" class="btn-pill btn-link">Link</a>{% endif %}
-    {% if talk.slides %}<a href="{{ talk.slides }}" target="_blank" class="btn-pill btn-slides">Slides</a>{% endif %}
-    {% if talk.video %}<a href="{{ talk.video }}" target="_blank" class="btn-pill btn-video">Video</a>{% endif %}
+    {% if talk.article %}<a href="{{ talk.article }}" target="_blank" rel="noopener" class="btn-pill btn-doi">Article</a>{% endif %}
+    {% if talk.pdf %}<a href="{{ talk.pdf }}" target="_blank" rel="noopener" class="btn-pill btn-pdf">PDF</a>{% endif %}
+    {% if talk.poster %}<a href="{{ talk.poster }}" target="_blank" rel="noopener" class="btn-pill btn-poster">Poster</a>{% endif %}
+    {% if talk.slides %}<a href="{{ talk.slides }}" target="_blank" rel="noopener" class="btn-pill btn-slides">Slides</a>{% endif %}
+    {% if talk.video %}<a href="{{ talk.video }}" target="_blank" rel="noopener" class="btn-pill btn-video">Video</a>{% endif %}
+    {% if talk.demo %}<a href="{{ talk.demo }}" target="_blank" rel="noopener" class="btn-pill btn-website">Demo</a>{% endif %}
+    {% if talk.code %}<a href="{{ talk.code }}" target="_blank" rel="noopener" class="btn-pill btn-code">Code</a>{% endif %}
+    {% if talk.scholar %}<a href="{{ talk.scholar }}" target="_blank" rel="noopener" class="btn-pill btn-link">Google Scholar</a>{% endif %}
+    {% if talk.url %}<a href="{{ talk.url }}" target="_blank" rel="noopener" class="btn-pill btn-link">Event</a>{% endif %}
   </div>
   {% endif %}
 </div>

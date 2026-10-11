@@ -1,38 +1,55 @@
 # Talks, shown on the Talks page in the order listed (newest first is conventional).
 # Each entry needs: title, event, year
 # Optional: location, date (free text, e.g. "11 December"), type (invited or contributed;
-#           anything other than invited is listed as contributed), url, slides, video
+#           anything other than invited is listed as contributed),
+#           article, pdf, poster, slides, video, demo, code, scholar (Google Scholar entry), url (event page)
 
 - title: "LLMThings: Platform for language agents-based orchestration of IoT systems (Best Presentation Award)"
   event: Junior Conference on Data Science and Engineering (JDSE 2026), student presentations session
   year: 2026
   date: 25 September
-  url: https://jdse2026.github.io/program/
   slides: https://jdse2026.github.io/slides/Oral_pres/13_SADOUDI_LLMThings.pdf
+  demo: https://llmthings.github.io/demo/
+  url: https://jdse2026.github.io/program/
 
 - title: "Blockchain-based trustworthy genomic data sharing using zero-knowledge proof for improving consumer identity protection (poster)"
   event: ACM Celebration of Women in Computing (womENcourage™ 2026)
   location: Sophia Antipolis, France
   year: 2026
   date: September
-  url: https://womencourage.acm.org/2026/index.php/poster-session/
+  poster: https://womencourage.acm.org/2026/index.php/poster-session/
+  url: https://womencourage.acm.org/2026/
 
 - title: "A privacy-preserving aggregated biomedical analysis using zero-knowledge proofs in a genomic data sharing blockchain platform (poster)"
   event: Paris-Saclay Summer School on Privacy, Protocols and Proofs (P3S3 2026)
   year: 2026
   date: June
+  url: https://www.universite-paris-saclay.fr/en/events/privacy-protocols-proofs-saclay-summer-school-p3s3
 
 - title: "Analysis of ZKP-based approaches for multi-party blockchain-based genomic data sharing"
-  event: International Workshop on Advances in ICT Infrastructures and Services (ADVANCEs 2026)
+  event: 13th International Workshop on Advances in ICT Infrastructures and Services (ADVANCE 2026)
+  location: Florianópolis, Brazil
   year: 2026
-  date: January
+  date: March
+  article: https://univ-evry.hal.science/hal-05645365/
+  pdf: https://univ-evry.hal.science/hal-05645365/document
+  scholar: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=MD2uJXYAAAAJ&citation_for_view=MD2uJXYAAAAJ:d1gkVwhDpl0C
+  url: https://www.ibisc.univ-evry.fr/en/?p=14870
 
 - title: "Context-aware location privacy-preserving system for multi-modal transportation (poster)"
   event: Junior Conference on Data Science and Engineering (JDSE 2025)
   year: 2025
   date: September
+  poster: https://kdradjat.github.io/jdse-2025/posters/3_Context-Aware_Location_Privacy-Preserving.pdf
+  scholar: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=MD2uJXYAAAAJ&citation_for_view=MD2uJXYAAAAJ:u-x6o8ySG0sC
+  url: https://kdradjat.github.io/jdse-2025/
 
 - title: "Optimizing edge-cloud server selection: a multi-objective deep reinforcement learning approach"
-  event: IEEE Cloud Summit 2024
+  event: 2024 IEEE Cloud Summit
+  location: Washington, D.C., USA
   year: 2024
   date: June
+  article: https://ieeexplore.ieee.org/abstract/document/10630895/
+  code: https://github.com/TranLabScholars/mec_multi-objective_drl
+  scholar: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=MD2uJXYAAAAJ&citation_for_view=MD2uJXYAAAAJ:u5HHmVD_uO8C
+  url: https://www.computer.org/cloud-summit-2024

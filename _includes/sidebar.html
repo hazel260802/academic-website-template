@@ -36,3 +36,14 @@
 </div>
 <p style="margin-top: var(--space-4);"><a href="{{ '/allnews.html' | relative_url }}">See all news &rarr;</a></p>
 </div>
+
+{% capture selected %}{% bibliography --query @*[selected=true] --template bibcompact %}{% endcapture %}
+{% if selected contains "pub-compact" %}
+<div class="section-card" style="margin-top: var(--space-6);">
+<h2 style="margin-top: 0; font-size: 1.125rem;">Selected publications</h2>
+<div class="pub-compact-list">
+{{ selected }}
+</div>
+<p style="margin-top: var(--space-4);"><a href="{{ '/publications' | relative_url }}">All publications &rarr;</a></p>
+</div>
+{% endif %}
