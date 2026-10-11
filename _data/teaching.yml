@@ -1,3 +1,15 @@
 # Courses, shown on the Teaching page in the order listed.
 # Each entry needs: course, title
 # Optional: term, role, url, description
+
+- course: Master 2
+  title: Computer Networks, Network Systems track (CNS-SR), Université d'Évry Paris-Saclay
+  term: 2025–2026
+  url: https://drive.google.com/drive/folders/1IMzrzbUl9l7tAaeWfGr61ObpcdPIdMf8?usp=sharing
+  description: Course notes, labs and project materials from my Master's programme.
+
+- course: Engineering degree
+  title: Computer Science, PFIEV programme, Hanoi University of Science and Technology (HUST)
+  term: 2020–2024
+  url: https://drive.google.com/drive/folders/1I7PA_uyyX_bqPIgcLDuS1GjxGDY7iXzS?usp=sharing
+  description: Course notes, exercises and project materials from my engineering studies.

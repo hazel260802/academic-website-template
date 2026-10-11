@@ -54,7 +54,8 @@ nav_pages:
   - name: software
     label: Projects
   # - name: team
-  # - name: teaching
+  - name: teaching
+    label: Learning Materials
   # - name: blog
 
 # ============================================================
