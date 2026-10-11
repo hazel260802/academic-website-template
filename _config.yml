@@ -2,8 +2,8 @@
 # STEP 1: Your Identity (required)
 # ============================================================
 name: "LE Huyen-Trang"
-title: "Computer Engineer & M2 Research Intern"
-institution: "IBISC Laboratory, Université d'Évry Paris-Saclay"
+title: "PhD Candidate in Computer Networks"
+institution: "LyRIDS (ECE) & CEDRIC (Cnam), Paris"
 email: lehuyentrang260802@gmail.com
 photo: placeholder.svg  # replace with your own photo in images/ (e.g. headshot.jpg)
 
@@ -25,7 +25,7 @@ links:
 accent_color: "#1a7a6d"      # theme color; light and dark variants are derived automatically
 dark_mode: true              # set to false to disable dark mode entirely
 math: false                  # true loads MathJax on every page; or add `math: true` to individual pages
-description: "Academic webpage of LE Huyen-Trang: blockchain, zero-knowledge proofs, privacy-preserving systems, and secure networked systems"
+description: "Academic webpage of LE Huyen-Trang, PhD candidate at ECE and Cnam working on certified dynamic reconfiguration of Time-Sensitive Networks (TSN)"
 
 # When deploying with the included GitHub Actions workflow these are filled
 # in automatically from your Pages settings (user site, project site, or

@@ -10,6 +10,13 @@ permalink: /research/
 
 <div class="research-card">
 <div class="research-body">
+<h2 class="research-title">Certified Dynamic Reconfiguration of TSN Networks (PhD)</h2>
+<p class="research-desc">Time-Sensitive Networking (TSN) promises bounded latency, but measurements only show a lower bound on the worst-case delay. My PhD uses deterministic network calculus to prove worst-case latency bounds and to keep them certified when the network is reconfigured at runtime. <a href="https://www.ece.fr/en/research-focuses-and-structuring" target="_blank" rel="noopener">LyRIDS</a> (ECE) and <a href="https://cedric.cnam.fr/" target="_blank" rel="noopener">CEDRIC</a> (Cnam). <a href="https://cnam-ece.github.io/learning-materials/blog/why-deterministic-guarantees" target="_blank" rel="noopener">Read the notes &rarr;</a></p>
+</div>
+</div>
+
+<div class="research-card">
+<div class="research-body">
 <h2 class="research-title">Secure Genomic Data Sharing with Zero-Knowledge Proofs</h2>
 <p class="research-desc">Blockchain-based platforms for sharing genomic data among multiple parties while protecting participants' identities. This work analyzes ZKP-based approaches to multi-party genomic data sharing and builds trust-based sharing and privacy-preserving aggregated biomedical analysis on top of them. COSMO team, IBISC, with Prof. Nazim Agoulmine and Dr. Adnan Imeri.</p>
 </div>
@@ -39,7 +46,7 @@ permalink: /research/
 <div class="research-card">
 <div class="research-body">
 <h2 class="research-title">Location Privacy in Multimodal Transportation</h2>
-<p class="research-desc">An adaptive privacy-preserving system for multimodal mobility trajectories that adjusts the level of protection to the user's context and mode of transport. Carried out at FEUP, Universidade do Porto, with Prof. Mariana Cunha and Prof. João P. Vilela.</p>
+<p class="research-desc">An adaptive privacy-preserving system for multimodal mobility trajectories that adjusts the level of protection to the user's context and mode of transport. Carried out during a 3-month Erasmus+ and IDEX Paris-Saclay research internship at FEUP, Universidade do Porto, with Prof. Mariana Cunha and Prof. João P. Vilela.</p>
 </div>
 </div>
 

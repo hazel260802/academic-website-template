@@ -2,7 +2,7 @@
 
 Source code for my personal academic webpage.
 
-I am a computer engineer and Master 2 student in computer and network systems at Université d'Évry Paris-Saclay, doing research at the [IBISC Laboratory](https://www.ibisc.univ-evry.fr/). I work on blockchain, zero-knowledge proofs, privacy-preserving systems and secure networked systems for healthcare and genomic data.
+I am a PhD candidate at Cnam and ECE Engineering School (LyRIDS / CEDRIC laboratories), working on certified dynamic reconfiguration of Time-Sensitive Networks (TSN) with network calculus. Before that, I worked on blockchain, zero-knowledge proofs and privacy-preserving systems for healthcare and genomic data at the [IBISC Laboratory](https://www.ibisc.univ-evry.fr/), Université d'Évry Paris-Saclay.
 
 **Live site:** https://hazel260802.github.io/academic-website-template/
 
@@ -14,7 +14,7 @@ I am a computer engineer and Master 2 student in computer and network systems at
 - **Talks**: conference talks and poster presentations
 - **Research**: overview of my research projects
 - **Projects**: software and engineering projects
-- **Learning Materials**: course materials from my Master's at Paris-Saclay and my engineering degree at HUST
+- **Learning Materials**: my [network calculus notes](https://cnam-ece.github.io/learning-materials/blog/why-deterministic-guarantees) and course materials from my Master's at Paris-Saclay and my engineering degree at HUST
 
 ## Editing the content
 
@@ -42,4 +42,4 @@ This site is built on the [academic-website-template](https://github.com/sbrynge
 ## Contact
 
 - Email: lehuyentrang260802@gmail.com
-- [LinkedIn](https://www.linkedin.com/in/huyentrang-le) · [GitHub](https://github.com/hazel260802) · [Google Scholar](https://scholar.google.com/citations?user=MD2uJXYAAAAJ)
+- [LinkedIn](https://www.linkedin.com/in/huyentrang-le) · [GitHub](https://github.com/hazel260802) · [CNAM-ECE GitHub](https://github.com/CNAM-ECE) · [Google Scholar](https://scholar.google.com/citations?user=MD2uJXYAAAAJ)

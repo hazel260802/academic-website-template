@@ -11,7 +11,7 @@ permalink: /teaching/
 <ul class="teaching-list">
 {% for course in site.data.teaching %}
 <li>
-<strong>{{ course.course }}</strong>{% if course.title %}: {{ course.title }}{% endif %}{% if course.term %} ({{ course.term }}){% endif %}{% if course.role %}, {{ course.role }}{% endif %}{% if course.url %} &middot; <a href="{{ course.url }}" target="_blank" rel="noopener">Google Drive folder</a>{% endif %}
+<strong>{{ course.course }}</strong>{% if course.title %}: {{ course.title }}{% endif %}{% if course.term %} ({{ course.term }}){% endif %}{% if course.role %}, {{ course.role }}{% endif %}{% if course.url %} &middot; <a href="{{ course.url }}" target="_blank" rel="noopener">{{ course.link_label | default: "Link" }}</a>{% endif %}
 {% if course.description %}<br><span class="text-muted">{{ course.description }}</span>{% endif %}
 </li>
 {% endfor %}

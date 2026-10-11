@@ -2,8 +2,29 @@
 # Basic info (name, photo, links) now lives in _config.yml.
 # Note: hyphens are rendered as en dashes, so names here avoid them.
 - education:
-    - "(2025–present) M2 Computer Networks, Network Systems track (CNS SR), Université d'Évry Paris Saclay. Average 15/20, with honours"
+    - "(2026–present) PhD in Computer Networks, Conservatoire national des arts et métiers (Cnam) and ECE Engineering School, doctoral school SMI. Thesis: certified dynamic reconfiguration of TSN networks, LyRIDS (ECE) and CEDRIC (Cnam)"
+    - "(2026) M2 Computer Networks, Network Systems track (CNS SR), Université d'Évry Paris Saclay. Average 15/20, with honours"
     - "(2024) Engineering Degree in Computer Science, PFIEV Elite Engineering Programme, Hanoi University of Science and Technology. GPA 3.5/4, ranked 5/40, with highest honours"
+  # PhD thesis, shown in its own card on the About page.
+  # Fill in supervisors as a list, e.g. ["Prof. A", "Dr. B"]; leave empty to hide.
+  phd:
+    title: "Certified dynamic reconfiguration of Time-Sensitive Networks (TSN)"
+    title_fr: "Reconfiguration dynamique certifiée des réseaux TSN"
+    degree: "PhD in Computer Systems Networking and Telecommunications"
+    institutions: "<a href='https://www.cnam.fr/' target='_blank' rel='noopener'>Conservatoire national des arts et métiers (Cnam)</a> and <a href='https://www.ece.fr/' target='_blank' rel='noopener'>ECE Engineering School</a>"
+    labs: "<a href='https://www.ece.fr/en/research-focuses-and-structuring' target='_blank' rel='noopener'>LyRIDS</a> (ECE) and <a href='https://cedric.cnam.fr/' target='_blank' rel='noopener'>CEDRIC</a> (Cnam)"
+    doctoral_school: "École doctorale SMI (ED 432, Sciences des métiers de l'ingénieur)"
+    start: "November 2026"
+    supervisors: []
+    summary: >-
+      Time-Sensitive Networking (TSN) promises bounded end-to-end latency for
+      critical traffic, but measurements only reveal a lower bound on the
+      worst-case delay. This thesis uses deterministic network calculus to
+      derive provable worst-case latency bounds, and studies how to keep those
+      guarantees certified when a TSN network is reconfigured at runtime.
+    notes: https://cnam-ece.github.io/learning-materials/blog/why-deterministic-guarantees
+    code: https://github.com/CNAM-ECE
   educationshort:
-    - "(2025–) M2 Networks, Univ. Évry Paris Saclay"
+    - "(2026–) PhD Networks, Cnam & ECE"
+    - "(2026) M2 Networks, Univ. Évry Paris Saclay"
     - "(2024) Eng. Computer Science, HUST"

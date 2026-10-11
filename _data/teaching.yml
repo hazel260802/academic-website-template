@@ -1,15 +1,24 @@
 # Courses, shown on the Teaching page in the order listed.
 # Each entry needs: course, title
-# Optional: term, role, url, description
+# Optional: term, role, url, link_label (text for the url, default "Link"), description
+
+- course: PhD
+  title: Network Calculus Notes, a learning series on network calculus applied to TSN
+  term: 2026–present
+  url: https://cnam-ece.github.io/learning-materials/blog/why-deterministic-guarantees
+  link_label: Read the notes
+  description: "Nine-part series: from why TSN needs deterministic guarantees, through min-plus algebra, arrival and service curves, the fundamental bounds, concatenation, aggregate multiplexing and TSN shapers, to dynamic reconfiguration."
 
 - course: Master 2
   title: Computer Networks, Network Systems track (CNS-SR), Université d'Évry Paris-Saclay
   term: 2025–2026
   url: https://drive.google.com/drive/folders/1IMzrzbUl9l7tAaeWfGr61ObpcdPIdMf8?usp=sharing
+  link_label: Google Drive folder
   description: Course notes, labs and project materials from my Master's programme.
 
 - course: Engineering degree
   title: Computer Science, PFIEV programme, Hanoi University of Science and Technology (HUST)
   term: 2020–2024
   url: https://drive.google.com/drive/folders/1I7PA_uyyX_bqPIgcLDuS1GjxGDY7iXzS?usp=sharing
+  link_label: Google Drive folder
   description: Course notes, exercises and project materials from my engineering studies.

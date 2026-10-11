@@ -8,22 +8,21 @@ permalink: /
 <p class="home-hero-sub">{{ site.title }}, {{ site.institution }}</p>
 
 <div class="chip-container" markdown="0">
+<a href="{{ '/research' | relative_url }}" class="chip">Time-Sensitive Networking</a>
+<a href="{{ '/research' | relative_url }}" class="chip">Network Calculus</a>
+<a href="{{ '/research' | relative_url }}" class="chip">Dynamic Reconfiguration</a>
 <a href="{{ '/research' | relative_url }}" class="chip">Blockchain</a>
 <a href="{{ '/research' | relative_url }}" class="chip">Zero-Knowledge Proofs</a>
 <a href="{{ '/research' | relative_url }}" class="chip">Privacy-Preserving Systems</a>
-<a href="{{ '/research' | relative_url }}" class="chip">Cybersecurity</a>
-<a href="{{ '/research' | relative_url }}" class="chip">Bioinformatics</a>
 <a href="{{ '/research' | relative_url }}" class="chip">IoT &amp; SDN</a>
-<a href="{{ '/research' | relative_url }}" class="chip">AI for Networks</a>
 </div>
 
-I am a computer engineer and Master 2 student in computer and network systems at Université d'Évry Paris-Saclay.
-My research covers secure healthcare data sharing, blockchain-based genomic data management, and privacy-preserving systems built on cryptography, including zero-knowledge proofs.
-I work at the [IBISC Laboratory](https://www.ibisc.univ-evry.fr/) under Prof. Nazim Agoulmine on decentralized solutions for medical IoT devices and trustworthy data-sharing ecosystems.
+I'm currently a PhD candidate in Computer Systems Networking and Telecommunications at the [Conservatoire national des arts et métiers (Cnam)](https://www.cnam.fr/) and [ECE Engineering School](https://www.ece.fr/) in Paris, within the [LyRIDS](https://www.ece.fr/en/research-focuses-and-structuring) (ECE) and [CEDRIC](https://cedric.cnam.fr/) (Cnam) laboratories and the SMI doctoral school.
+My current research focuses on Time-Sensitive Networking (TSN), deterministic network calculus and the certified dynamic reconfiguration of TSN networks, as well as blockchain, zero-knowledge proofs and privacy-preserving systems for healthcare and genomic data.
 
 <div class="callout callout-success" markdown="0">
-<div class="callout-title">{% include icon.html name="award" class="callout-icon" %} Looking for a PhD position</div>
-<p>I am looking for a PhD topic in cybersecurity, distributed network systems, or artificial intelligence applied to network systems. Feel free to <a href="mailto:{{ site.email }}">get in touch</a>.</p>
+<div class="callout-title">{% include icon.html name="award" class="callout-icon" %} Network calculus notes</div>
+<p>I am writing a learning series on network calculus applied to TSN, from worst-case bounds to dynamic reconfiguration. Start with <a href="https://cnam-ece.github.io/learning-materials/blog/why-deterministic-guarantees" target="_blank" rel="noopener">Why deterministic guarantees? From TSN to worst-case bounds</a>, or browse the code on <a href="https://github.com/CNAM-ECE" target="_blank" rel="noopener">GitHub</a>.</p>
 </div>
 
 {% capture selected %}{% bibliography --query @*[selected=true] %}{% endcapture %}
@@ -38,12 +37,14 @@ I work at the [IBISC Laboratory](https://www.ibisc.univ-evry.fr/) under Prof. Na
 
 ## About me
 
-I received my engineering degree in computer science (5-year programme completed in 4 years) from the PFIEV elite programme at Hanoi University of Science and Technology (HUST) in 2024, graduating 5th of 40.
-At HUST's BKCS lab I worked with Prof. Tran Hai-Anh on multi-objective deep reinforcement learning for edge-cloud server selection, published at IEEE Cloud Summit 2024.
-In 2025 I joined Universidade do Porto (FEUP) as an Erasmus+ researcher, working with Prof. Mariana Cunha and Prof. João P. Vilela on context-aware location privacy for multimodal transportation.
+Since November 2026, I have been preparing a PhD at Cnam and ECE on the certified dynamic reconfiguration of TSN networks, which aims to keep provable worst-case latency guarantees while a network is reconfigured at runtime.
+I hold a Master 2 in Computer Networks (Network Systems track, CNS-SR) from Université d'Évry Paris-Saclay (2026), and an engineering degree in Computer Science from the PFIEV elite programme at Hanoi University of Science and Technology (HUST, 2024).
 
-Since September 2025 I have been a research intern in the COSMO team at IBISC, funded by an IDEX Paris-Saclay scholarship, working on secure genomic data sharing that protects participants' identities.
-I also lead the D4Gen Hackathon project on secure collection and transmission of electronic health records, which combines SDN-based medical IoT infrastructure with zero-knowledge smart contracts. Our team won the Shaker Genopole Challenge in 2026.
+My research experience started at HUST's BKCS lab, where I worked with Prof. Tran Hai-Anh on multi-objective deep reinforcement learning for edge-cloud server selection, published at IEEE Cloud Summit 2024.
+In 2025, I did a 3-month research internship at Universidade do Porto (FEUP), funded by Erasmus+ and IDEX Paris-Saclay, on context-aware location privacy for multimodal transportation with Prof. Mariana Cunha and Prof. João P. Vilela (JDSE 2025).
+From September 2025, I was a Master 2 research intern in the COSMO team at the IBISC Laboratory under Prof. Nazim Agoulmine, working on blockchain-based genomic data sharing with zero-knowledge proofs. This work was published at ADVANCEs 2026 and presented as posters at the P3S3 Summer School and ACM womENcourage 2026.
+I also led the D4Gen Hackathon project on secure collection and transmission of electronic health records, whose team won the Shaker Genopole Challenge, and co-authored LLMThings, which received the Best Presentation Award at JDSE 2026.
 
-Outside research, I led the HUST Finance and Technology Club, organized the NestQuant 2023 and Chat'Innov AUF 2023 competitions, and ran francophone orientation events and workshops.
-I speak English (C1, IELTS 7.0) and French (B2, DELF B2).
+Beyond research, I was President of the HUST Finance and Technology Club, where I organized more than 10 workshops and events on blockchain and crypto-finance for 70 members, and led the extracurricular activities committee of the HUST Francophone Club.
+I organized the NestQuant 2023 and Chat'Innov AUF 2023 programming competitions, which brought together more than 150 participants, as well as francophone career orientation events.
+I also served as a StartupCity ambassador and represented BK Fintech at the Korea–Vietnam Entrepreneurship Education Forum.
