@@ -40,4 +40,9 @@
   h2 {
     font-size: 1.375rem;
   }
+
+  // Text inside a card uses the card's full width, not the 65ch reading cap
+  p, li {
+    max-width: none;
+  }
 }
