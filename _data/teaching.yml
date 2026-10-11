@@ -1,24 +1,180 @@
-# Courses, shown on the Teaching page in the order listed.
-# Each entry needs: course, title
-# Optional: term, role, url, link_label (text for the url, default "Link"), description
+# Learning materials, shown on the Learning Materials page, grouped by section.
+# Each section needs: section, items. Optional: term
+# Each item needs: title
+# Optional: course (bold label), term, description (HTML allowed), links (list of {label, url})
 
-- course: PhD
-  title: Network Calculus Notes, a learning series on network calculus applied to TSN
+- section: PhD, Cnam & ECE
   term: 2026–present
-  url: https://cnam-ece.github.io/learning-materials/blog/why-deterministic-guarantees
-  link_label: Read the notes
-  description: "Nine-part series: from why TSN needs deterministic guarantees, through min-plus algebra, arrival and service curves, the fundamental bounds, concatenation, aggregate multiplexing and TSN shapers, to dynamic reconfiguration."
+  items:
+    - course: Network Calculus Notes
+      title: A learning series on network calculus applied to TSN
+      description: >-
+        Nine parts: from why TSN needs deterministic guarantees, through min-plus
+        algebra, arrival and service curves, the fundamental bounds, concatenation,
+        aggregate multiplexing and TSN shapers, to dynamic reconfiguration.
+      links:
+        - label: Read the notes
+          url: https://cnam-ece.github.io/learning-materials/blog/why-deterministic-guarantees
+        - label: GitHub
+          url: https://github.com/CNAM-ECE
 
-- course: Master 2
-  title: Computer Networks, Network Systems track (CNS-SR), Université d'Évry Paris-Saclay
+- section: Master 2 Computer Networks (CNS-SR), Université d'Évry Paris-Saclay
   term: 2025–2026
-  url: https://drive.google.com/drive/folders/1IMzrzbUl9l7tAaeWfGr61ObpcdPIdMf8?usp=sharing
-  link_label: Google Drive folder
-  description: Course notes, labs and project materials from my Master's programme.
+  items:
+    - course: Course materials
+      title: Notes, labs and project materials from the Master's programme
+      links:
+        - label: Google Drive folder
+          url: https://drive.google.com/drive/folders/1IMzrzbUl9l7tAaeWfGr61ObpcdPIdMf8?usp=sharing
+    - course: Network systems labs
+      title: High availability, load balancing, data-centre networking and SDN
+      description: >-
+        High availability and LAN routing on <a href="https://www.openbsd.org/" target="_blank" rel="noopener">OpenBSD</a>
+        (<a href="https://www.openbsd.org/faq/pf/carp.html" target="_blank" rel="noopener">CARP and PFSYNC</a>); redundant DHCP servers;
+        LVS + <a href="https://www.keepalived.org/" target="_blank" rel="noopener">Keepalived</a> load-balanced clusters; NAT and packet filtering with
+        <a href="https://www.netfilter.org/" target="_blank" rel="noopener">Netfilter</a>, <a href="https://www.wireshark.org/" target="_blank" rel="noopener">Wireshark</a> and tcpdump;
+        a multi-site network with VLANs, LACP, MLAG and VRRP on
+        <a href="https://docs.nvidia.com/networking-ethernet-software/cumulus-linux/" target="_blank" rel="noopener">Cumulus Linux</a>, automated with
+        <a href="https://www.ansible.com/" target="_blank" rel="noopener">Ansible</a>; an SQL-to-<a href="https://www.mongodb.com/" target="_blank" rel="noopener">MongoDB</a>
+        migration on <a href="https://podman.io/" target="_blank" rel="noopener">Podman</a>; and
+        <a href="https://en.wikipedia.org/wiki/Software-defined_networking" target="_blank" rel="noopener">SDN</a> with
+        <a href="https://www.opendaylight.org/" target="_blank" rel="noopener">OpenDaylight</a>, <a href="https://opennetworking.org/onos/" target="_blank" rel="noopener">ONOS</a>
+        and <a href="https://github.com/noxrepo/pox" target="_blank" rel="noopener">POX</a> controllers on <a href="https://mininet.org/" target="_blank" rel="noopener">Mininet</a>.
 
-- course: Engineering degree
-  title: Computer Science, PFIEV programme, Hanoi University of Science and Technology (HUST)
+- section: Research, BKCS Lab, HUST
+  term: 2023–2024
+  items:
+    - course: BKCS
+      title: SDN research notes, papers and Mininet demos
+      description: >-
+        Learning materials behind my engineering thesis and the IEEE Cloud Summit 2024
+        paper on multi-objective deep reinforcement learning for edge-cloud server selection.
+      links:
+        - label: Learning materials
+          url: https://github.com/hazel260802/BKCS
+        - label: Paper source code
+          url: https://github.com/TranLabScholars/mec_multi-objective_drl
+        - label: Reference implementation
+          url: https://github.com/hazel260802/mec_morl_multipolicy
+
+- section: Engineering degree in Computer Science, HUST (PFIEV)
   term: 2020–2024
-  url: https://drive.google.com/drive/folders/1I7PA_uyyX_bqPIgcLDuS1GjxGDY7iXzS?usp=sharing
-  link_label: Google Drive folder
-  description: Course notes, exercises and project materials from my engineering studies.
+  items:
+    - course: Course materials
+      title: Notes, exercises and project materials from the engineering programme
+      links:
+        - label: Google Drive folder
+          url: https://drive.google.com/drive/folders/1I7PA_uyyX_bqPIgcLDuS1GjxGDY7iXzS?usp=sharing
+    - course: Mobile Programming
+      title: Weekly Android labs in Kotlin
+      term: 2023
+      links:
+        - label: Repository
+          url: https://github.com/hazel260802/Mobile-Programming
+        - label: Words app
+          url: https://github.com/hazel260802/android-basics-kotlin-words-app
+    - course: SDN with ONOS
+      title: Open Network Operating System labs
+      term: 2023
+      links:
+        - label: Repository
+          url: https://github.com/hazel260802/onos
+    - course: IT4611 Distributed Systems and Applications
+      title: Course notes and project
+      term: 2023
+      links:
+        - label: Repository
+          url: https://github.com/hazel260802/HPT
+    - course: Introduction to Artificial Intelligence
+      title: "Mini project: chess game with an AI opponent"
+      term: 2023
+      links:
+        - label: Chess-Game-AI
+          url: https://github.com/TNuan/Chess-Game-AI
+    - course: Web Technologies
+      title: Web application project (Node.js API, admin interface and dashboard)
+      term: 2023
+      links:
+        - label: CN_WEB
+          url: https://github.com/hazel260802/CN_WEB
+        - label: Administration
+          url: https://github.com/hazel260802/ADMINISTRATION
+        - label: Dashboard
+          url: https://github.com/hazel260802/Dashboard
+    - course: IT3120 System Analysis and Design
+      title: Course materials
+      term: 2023
+      links:
+        - label: Repository
+          url: https://github.com/hazel260802/it3120
+    - course: IT3103 Object-Oriented Programming
+      title: Lectures and practice in Java
+      term: 2022–2023
+      links:
+        - label: OOP
+          url: https://github.com/hazel260802/OOP
+        - label: OOP practice
+          url: https://github.com/hazel260802/OOP_HUST
+    - course: Introduction to Software Engineering
+      title: Java coursework and a population management application
+      term: 2022
+      links:
+        - label: Repository
+          url: https://github.com/hazel260802/SE-Intro
+    - course: Computer Networks
+      title: Theory notes
+      term: 2022
+      links:
+        - label: Repository
+          url: https://github.com/hazel260802/Computer-Networks
+    - course: Operating Systems
+      title: Lecture notes
+      term: 2022
+      links:
+        - label: Repository
+          url: https://github.com/hazel260802/Operating-Systems
+    - course: Data Structures and Algorithms
+      title: Exercises in C
+      term: 2022
+      links:
+        - label: Repository
+          url: https://github.com/hazel260802/CTDL-GT
+    - course: C Programming (Basic)
+      title: Practice exercises and project
+      term: 2021
+      links:
+        - label: Practice
+          url: https://github.com/hazel260802/CBASIC
+        - label: Project
+          url: https://github.com/hazel260802/ProjectCBasic
+
+- section: Self-learning
+  items:
+    - course: dApp learning
+      title: Courses towards Web3 and blockchain application development
+      term: 2026
+      links:
+        - label: Repository
+          url: https://github.com/hazel260802/dApp-learning
+    - course: Udemy
+      title: "NodeJS - The Complete Guide (MVC, REST APIs, GraphQL, Deno)"
+      term: 2022
+      links:
+        - label: Course work
+          url: https://github.com/hazel260802/NodeJS
+    - course: freeCodeCamp certification
+      title: JavaScript Algorithms and Data Structures
+      links:
+        - label: Certificate
+          url: https://www.freecodecamp.org/certification/fcc0c601d87-4215-4421-b07a-122c19c47fbe/javascript-algorithms-and-data-structures
+    - course: freeCodeCamp certification
+      title: Responsive Web Design
+      links:
+        - label: Certificate
+          url: https://www.freecodecamp.org/certification/fcc0c601d87-4215-4421-b07a-122c19c47fbe/responsive-web-design
+    - course: freeCodeCamp
+      title: Back-end development and APIs, npm boilerplate
+      term: 2021
+      links:
+        - label: Repository
+          url: https://github.com/hazel260802/boilerplate-npm

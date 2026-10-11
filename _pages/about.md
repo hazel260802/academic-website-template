@@ -69,7 +69,7 @@ permalink: /about/
 <h3>Awards</h3>
 <ul>
 {% for award in site.data.awards %}
-<li>{{ award.name | replace: "-","&#8211;" }}</li>
+<li>{% if award.url %}<a href="{{ award.url }}" target="_blank" rel="noopener">{{ award.name }}</a>{% else %}{{ award.name }}{% endif %}{% if award.detail %} {{ award.detail }}{% endif %}</li>
 {% endfor %}
 </ul>
 </div>

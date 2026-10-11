@@ -18,7 +18,7 @@ permalink: /
 </div>
 
 I'm currently a PhD candidate in Computer Systems Networking and Telecommunications at the [Conservatoire national des arts et métiers (Cnam)](https://www.cnam.fr/) and [ECE Engineering School](https://www.ece.fr/) in Paris, within the [LyRIDS](https://www.ece.fr/en/research-focuses-and-structuring) (ECE) and [CEDRIC](https://cedric.cnam.fr/) (Cnam) laboratories and the SMI doctoral school.
-My current research focuses on Time-Sensitive Networking (TSN), deterministic network calculus and the certified dynamic reconfiguration of TSN networks, as well as blockchain, zero-knowledge proofs and privacy-preserving systems for healthcare and genomic data.
+My current research focuses on [Time-Sensitive Networking (TSN)](https://1.ieee802.org/tsn/), deterministic [network calculus](https://en.wikipedia.org/wiki/Network_calculus) and the certified dynamic reconfiguration of TSN networks, as well as blockchain, [zero-knowledge proofs](https://en.wikipedia.org/wiki/Zero-knowledge_proof) and privacy-preserving systems for healthcare and genomic data.
 
 <div class="callout callout-success" markdown="0">
 <div class="callout-title">{% include icon.html name="award" class="callout-icon" %} Network calculus notes</div>
@@ -42,8 +42,8 @@ I hold a Master 2 in Computer Networks (Network Systems track, CNS-SR) from Univ
 
 My research experience started at HUST's BKCS lab, where I worked with Prof. Tran Hai-Anh on multi-objective deep reinforcement learning for edge-cloud server selection, published at IEEE Cloud Summit 2024.
 In 2025, I did a 3-month research internship at Universidade do Porto (FEUP), funded by Erasmus+ and IDEX Paris-Saclay, on context-aware location privacy for multimodal transportation with Prof. Mariana Cunha and Prof. João P. Vilela (JDSE 2025).
-From September 2025, I was a Master 2 research intern in the COSMO team at the IBISC Laboratory under Prof. Nazim Agoulmine, working on blockchain-based genomic data sharing with zero-knowledge proofs. This work was published at ADVANCEs 2026 and presented as posters at the P3S3 Summer School and ACM womENcourage 2026.
-I also led the D4Gen Hackathon project on secure collection and transmission of electronic health records, whose team won the Shaker Genopole Challenge, and co-authored LLMThings, which received the Best Presentation Award at JDSE 2026.
+From September 2025, I was a Master 2 research intern in the COSMO team at the IBISC Laboratory under Prof. Nazim Agoulmine, working on blockchain-based genomic data sharing with zero-knowledge proofs. This work was published at ADVANCEs 2026 and presented as posters at the P3S3 Summer School and [ACM womENcourage 2026](https://womencourage.acm.org/2026/index.php/poster-session/).
+I also led the D4Gen Hackathon project on secure collection and transmission of electronic health records over [Software-Defined Networks](https://en.wikipedia.org/wiki/Software-defined_networking) emulated in [Mininet-WiFi](https://mininet-wifi.github.io/), whose team won the [Shaker Genopole Challenge](https://genopole.agorize.com/web/en/challenges/618/teams/2643/participation), and co-authored [LLMThings](https://llmthings.github.io/demo/), which received the [Best Presentation Award](https://www.ibisc.univ-evry.fr/anais-sadoudi-et-huyen-trang-le-recoivent-le-best-presentation-award-a-la-jdse-2026-english-version-below/) at [JDSE 2026](https://jdse2026.github.io/program/).
 
 Beyond research, I was President of the HUST Finance and Technology Club, where I organized more than 10 workshops and events on blockchain and crypto-finance for 70 members, and led the extracurricular activities committee of the HUST Francophone Club.
 I organized the NestQuant 2023 and Chat'Innov AUF 2023 programming competitions, which brought together more than 150 participants, as well as francophone career orientation events.

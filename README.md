@@ -41,5 +41,5 @@ This site is built on the [academic-website-template](https://github.com/sbrynge
 
 ## Contact
 
-- Email: lehuyentrang260802@gmail.com
+- Email: lehuyentrang.workmail@gmail.com
 - [LinkedIn](https://www.linkedin.com/in/huyentrang-le) · [GitHub](https://github.com/hazel260802) · [CNAM-ECE GitHub](https://github.com/CNAM-ECE) · [Google Scholar](https://scholar.google.com/citations?user=MD2uJXYAAAAJ)

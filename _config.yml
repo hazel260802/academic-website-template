@@ -4,8 +4,8 @@
 name: "LE Huyen-Trang"
 title: "PhD Candidate in Computer Networks"
 institution: "LyRIDS (ECE) & CEDRIC (Cnam), Paris"
-email: lehuyentrang260802@gmail.com
-photo: placeholder.svg  # replace with your own photo in images/ (e.g. headshot.jpg)
+email: lehuyentrang.workmail@gmail.com
+photo: headshot.jpg  # your photo in images/
 
 # ============================================================
 # STEP 2: Your Links (optional -- leave blank to hide an icon)
@@ -79,7 +79,7 @@ scholar:
   bibliography_list_attributes:
     reversed: "reversed"
   # Template-only fields, kept out of the copyable BibTeX
-  bibtex_skip_fields: [abstract, month_numeric, file, selected, code, slides, video, poster, data]
+  bibtex_skip_fields: [abstract, month_numeric, file, pdf, selected, code, slides, video, poster, data]
 
 # ============================================================
 # Advanced Settings (you probably don't need to change these)

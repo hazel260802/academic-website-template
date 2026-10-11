@@ -6,6 +6,8 @@ permalink: /publications/
 
 # Publications
 
+<p class="text-muted">Also on <a href="{{ site.links.google_scholar }}" target="_blank" rel="noopener">Google Scholar</a>.</p>
+
 <input type="text" class="pub-search" id="pubSearch" placeholder="Filter by title, author, or year...">
 
 <div class="section-card" id="pubList">

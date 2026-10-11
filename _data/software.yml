@@ -1,44 +1,42 @@
 # Software projects, shown on the Software page in the order listed.
 # Each entry needs: name, description
-# Optional: authors, website, repo, docs, paper
+# Optional: authors, website, repo, docs, paper, program, slides
 
 - name: Zero-knowledge smart contracts for healthcare SLAs (Shaker Genopole)
   authors: H.-T. Le, H.-H. Vuong; supervised by A. Imeri and N. Agoulmine
   website: https://genopole.agorize.com/web/en/challenges/618/teams/2643/participation
   description: >-
-    Winning project of the Shaker Genopole Challenge (6 months). A working,
+    Winning project of the <a href="https://genopole.agorize.com/web/en/challenges/618/teams/2643/participation" target="_blank" rel="noopener">Shaker Genopole Challenge</a>,
+    the 6-month programme of <a href="https://www.genopole.fr/" target="_blank" rel="noopener">Genopole</a>, developed from the D4Gen Hackathon project at
+    <a href="https://www.ibisc.univ-evry.fr/" target="_blank" rel="noopener">IBISC</a>. A working,
     secure prototype for traceable transmission of electronic health records on
-    the Sui blockchain, with contextual access control and privacy protection
+    the <a href="https://sui.io/" target="_blank" rel="noopener">Sui</a> blockchain, with contextual access control and privacy protection
     through zero-knowledge contracts (ZKContract).
 
 - name: LLMThings
   authors: A. Sadoudi, H.-T. Le, M. Hamidi
-  website: https://www.ibisc.univ-evry.fr/anais-sadoudi-et-huyen-trang-le-recoivent-le-best-presentation-award-a-la-jdse-2026-english-version-below/
+  website: https://llmthings.github.io/demo/
+  slides: https://jdse2026.github.io/slides/Oral_pres/13_SADOUDI_LLMThings.pdf
+  program: https://jdse2026.github.io/program/
   description: >-
     An experimentation platform for orchestrating IoT systems with language
-    agents. Best Presentation Award at JDSE 2026.
+    agents. Presented in the student session of <a href="https://jdse2026.github.io/program/" target="_blank" rel="noopener">JDSE 2026</a> (Junior Conference on
+    Data Science and Engineering), where it received the
+    <a href="https://www.ibisc.univ-evry.fr/anais-sadoudi-et-huyen-trang-le-recoivent-le-best-presentation-award-a-la-jdse-2026-english-version-below/" target="_blank" rel="noopener">Best Presentation Award</a>.
 
 - name: Automatic course registration system for HUST students
   authors: H.-T. Le; supervised by Do Ba-Lam (BKC Labs, HUST)
+  repo: https://github.com/NHIMCOII/ACR
   description: >-
     A microservices-based registration system tested with Postman and deployed
     with Apache and Docker. It went into production at the university for 200
     students and stayed in use in later years. Received the Project Excellence
-    Prize from the HUST vice-president.
+    Prize from the vice-president of <a href="https://hust.edu.vn/" target="_blank" rel="noopener">Hanoi University of Science and Technology (HUST)</a>.
 
 - name: FoodTech
   authors: H.-T. Le
   repo: https://github.com/hazel260802/foodtech
   description: >-
     A food selection web app that suggests meals from nutritional information,
-    dietary preferences and health goals. Top 10 in the Coders & Philosophers
-    web creativity competition.
-
-- name: Network systems coursework (M2 CNS-SR)
-  description: >-
-    High availability and LAN routing on OpenBSD (CARP and PFSYNC); redundant
-    DHCP servers; LVS + Keepalived load-balanced clusters; NAT and packet
-    filtering with Netfilter, Wireshark and tcpdump; a multi-site network with
-    VLANs, LACP, MLAG and VRRP on Cumulus Linux, automated with Ansible; an
-    SQL-to-MongoDB migration on Podman; and SDN with OpenDaylight, ONOS and POX
-    controllers on Mininet.
+    dietary preferences and health goals. Top 10 in the Coders &amp; Philosophers
+    web creativity competition (<a href="https://github.com/hazel260802/foodtech" target="_blank" rel="noopener">project repository</a>).
