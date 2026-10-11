@@ -3,57 +3,33 @@
 # Optional: location, date (free text, e.g. "11 December"), type (invited or contributed;
 #           anything other than invited is listed as contributed), url, slides, video
 
-- title: Personal observations on the reliability of the Shuttle
-  event: Rogers Commission
-  location: Washington, D.C.
-  year: 1986
-  type: invited
+- title: "LLMThings: Platform for language agents-based orchestration of IoT systems (Best Presentation Award)"
+  event: Junior Conference on Data Science and Engineering (JDSE 2026)
+  year: 2026
+  date: September
+  url: https://www.ibisc.univ-evry.fr/anais-sadoudi-et-huyen-trang-le-recoivent-le-best-presentation-award-a-la-jdse-2026-english-version-below/
 
-- title: Simulating physics with computers
-  event: MIT Conference on Physics and Computation
-  year: 1981
-  type: invited
-  slides: https://example.com/slides
+- title: "Blockchain-based trustworthy genomic data sharing using zero-knowledge proof for improving consumer identity protection (poster)"
+  event: ACM Celebration of Women in Computing (womENcourage™ 2026)
+  year: 2026
+  date: September
 
-- title: Difficulties in applying the variational principle to quantum field theories
-  event: Workshop on Variational Calculations in Quantum Field Theory
-  location: Wangerooge
-  year: 1987
+- title: "A privacy-preserving aggregated biomedical analysis using zero-knowledge proofs in a genomic data sharing blockchain platform (poster)"
+  event: Paris-Saclay Summer School on Privacy, Protocols and Proofs (P3S3 2026)
+  year: 2026
+  date: June
 
-- title: Los Alamos from below
-  event: APS Annual Meeting
-  location: Santa Barbara
-  year: 1975
-  video: https://example.com/video
+- title: "Analysis of ZKP-based approaches for multi-party blockchain-based genomic data sharing"
+  event: International Workshop on Advances in ICT Infrastructures and Services (ADVANCEs 2026)
+  year: 2026
+  date: January
 
-- title: The parton model
-  event: Third International Conference on High Energy Collisions
-  location: Stony Brook
-  year: 1970
+- title: "Context-aware location privacy-preserving system for multi-modal transportation (poster)"
+  event: Junior Conference on Data Science and Engineering (JDSE 2025)
+  year: 2025
+  date: September
 
-- title: The development of the space-time view of quantum electrodynamics
-  event: Nobel Lecture
-  location: Stockholm
-  year: 1965
-  date: 11 December
-  type: invited
-  url: https://www.nobelprize.org/prizes/physics/1965/feynman/lecture/
-
-- title: The relation of mathematics to physics
-  event: Cornell Messenger Lectures
-  year: 1964
-
-- title: There's plenty of room at the bottom
-  event: Annual Meeting of the American Physical Society
-  location: Caltech
-  year: 1959
-  type: invited
-
-- title: The universal Fermi interaction
-  event: Rochester Conference on High Energy Physics
-  year: 1957
-
-- title: Atomic theory of liquid helium
-  event: International Conference on Theoretical Physics
-  location: Tokyo
-  year: 1953
+- title: "Optimizing edge-cloud server selection: a multi-objective deep reinforcement learning approach"
+  event: IEEE Cloud Summit 2024
+  year: 2024
+  date: June

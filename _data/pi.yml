@@ -1,11 +1,9 @@
 # Optional: detailed education and bio for the About page.
 # Basic info (name, photo, links) now lives in _config.yml.
-# Delete this file if you only need the basics.
-
-# EXAMPLE -- replace or delete
+# Note: hyphens are rendered as en dashes, so names here avoid them.
 - education:
-    - "(1942) Ph.D. Physics, Princeton University"
-    - "(1939) B.S. Physics, Massachusetts Institute of Technology"
+    - "(2025–present) M2 Computer Networks, Network Systems track (CNS SR), Université d'Évry Paris Saclay. Average 15/20, with honours"
+    - "(2024) Engineering Degree in Computer Science, PFIEV Elite Engineering Programme, Hanoi University of Science and Technology. GPA 3.5/4, ranked 5/40, with highest honours"
   educationshort:
-    - "(1942) Ph.D. Physics, Princeton"
-    - "(1939) B.S. Physics, MIT"
+    - "(2025–) M2 Networks, Univ. Évry Paris Saclay"
+    - "(2024) Eng. Computer Science, HUST"
