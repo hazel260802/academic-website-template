@@ -8,26 +8,22 @@ permalink: /
 <p class="home-hero-sub">{{ site.title }}, {{ site.institution }}</p>
 
 <div class="chip-container" markdown="0">
-<a href="{{ '/research' | relative_url }}" class="chip">Quantum Electrodynamics</a>
-<a href="{{ '/research' | relative_url }}" class="chip">Path Integrals</a>
-<a href="{{ '/research' | relative_url }}" class="chip">Superfluidity</a>
-<a href="{{ '/research' | relative_url }}" class="chip">Parton Model</a>
-<a href="{{ '/research' | relative_url }}" class="chip">Quantum Computing</a>
-<a href="{{ '/research' | relative_url }}" class="chip">Nanotechnology</a>
+<a href="{{ '/research' | relative_url }}" class="chip">Blockchain</a>
+<a href="{{ '/research' | relative_url }}" class="chip">Zero-Knowledge Proofs</a>
+<a href="{{ '/research' | relative_url }}" class="chip">Privacy-Preserving Systems</a>
+<a href="{{ '/research' | relative_url }}" class="chip">Cybersecurity</a>
+<a href="{{ '/research' | relative_url }}" class="chip">Bioinformatics</a>
+<a href="{{ '/research' | relative_url }}" class="chip">IoT &amp; SDN</a>
+<a href="{{ '/research' | relative_url }}" class="chip">AI for Networks</a>
 </div>
 
-Theoretical physics is a branch of physics that focuses on the development of mathematical models and theories to understand and explain natural phenomena.
-It plays a crucial role in our understanding of the fundamental laws of the universe and the fundamental particles that make up all matter.
-Research in theoretical physics helps us to make predictions about how the universe works and to test these predictions through experiments.
+I am a computer engineer and Master 2 student in computer and network systems at Université d'Évry Paris-Saclay.
+My research covers secure healthcare data sharing, blockchain-based genomic data management, and privacy-preserving systems built on cryptography, including zero-knowledge proofs.
+I work at the [IBISC Laboratory](https://www.ibisc.univ-evry.fr/) under Prof. Nazim Agoulmine on decentralized solutions for medical IoT devices and trustworthy data-sharing ecosystems.
 
 <div class="callout callout-success" markdown="0">
-<div class="callout-title">{% include icon.html name="award" class="callout-icon" %} Nobel Prize in Physics, 1965</div>
-<p>Awarded the Nobel Prize jointly with Julian Schwinger and Shin'ichiro Tomonaga for fundamental work in quantum electrodynamics, with deep-ploughing consequences for the physics of elementary particles.</p>
-</div>
-
-<div class="banner-frame" markdown="0">
-<img src="{{ '/images/banner.webp' | relative_url }}" alt="Feynman diagrams" width="1400" height="449" loading="lazy">
-<div class="banner-caption">Examples of Feynman diagrams. Feynman R., <em>The theory of positrons. Phys. Rev.</em> (1949)</div>
+<div class="callout-title">{% include icon.html name="award" class="callout-icon" %} Looking for a PhD position</div>
+<p>I am looking for a PhD topic in cybersecurity, distributed network systems, or artificial intelligence applied to network systems. Feel free to <a href="mailto:{{ site.email }}">get in touch</a>.</p>
 </div>
 
 {% capture selected %}{% bibliography --query @*[selected=true] %}{% endcapture %}
@@ -42,7 +38,12 @@ Research in theoretical physics helps us to make predictions about how the unive
 
 ## About me
 
-I am a physicist working in the field of quantum mechanics and quantum electrodynamics.
-I received my undergraduate degree in physics from the Massachusetts Institute of Technology (MIT) in 1939 and went on to earn my PhD from Princeton University in 1942.
-After completing my doctoral studies, I worked on the Manhattan Project, where I helped develop the first atomic bombs.
-After the war, I returned to academia, holding teaching and research positions at Cornell and now at the California Institute of Technology.
+I received my engineering degree in computer science (5-year programme completed in 4 years) from the PFIEV elite programme at Hanoi University of Science and Technology (HUST) in 2024, graduating 5th of 40.
+At HUST's BKCS lab I worked with Prof. Tran Hai-Anh on multi-objective deep reinforcement learning for edge-cloud server selection, published at IEEE Cloud Summit 2024.
+In 2025 I joined Universidade do Porto (FEUP) as an Erasmus+ researcher, working with Prof. Mariana Cunha and Prof. João P. Vilela on context-aware location privacy for multimodal transportation.
+
+Since September 2025 I have been a research intern in the COSMO team at IBISC, funded by an IDEX Paris-Saclay scholarship, working on secure genomic data sharing that protects participants' identities.
+I also lead the D4Gen Hackathon project on secure collection and transmission of electronic health records, which combines SDN-based medical IoT infrastructure with zero-knowledge smart contracts. Our team won the Shaker Genopole Challenge in 2026.
+
+Outside research, I led the HUST Finance and Technology Club, organized the NestQuant 2023 and Chat'Innov AUF 2023 competitions, and ran francophone orientation events and workshops.
+I speak English (C1, IELTS 7.0) and French (B2, DELF B2).

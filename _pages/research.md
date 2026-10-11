@@ -9,50 +9,44 @@ permalink: /research/
 <div class="research-grid">
 
 <div class="research-card">
-<img src="{{ '/images/research/qed.svg' | relative_url }}" class="research-thumb" width="400" height="200" alt="Feynman diagram">
 <div class="research-body">
-<h2 class="research-title">Quantum Electrodynamics</h2>
-<p class="research-desc">Development of the path integral formulation of quantum mechanics and its application to quantum electrodynamics (QED). This work introduced Feynman diagrams as a powerful tool for calculating particle interactions, providing an intuitive visual representation of complex quantum processes.</p>
+<h2 class="research-title">Secure Genomic Data Sharing with Zero-Knowledge Proofs</h2>
+<p class="research-desc">Blockchain-based platforms for sharing genomic data among multiple parties while protecting participants' identities. This work analyzes ZKP-based approaches to multi-party genomic data sharing and builds trust-based sharing and privacy-preserving aggregated biomedical analysis on top of them. COSMO team, IBISC, with Prof. Nazim Agoulmine and Dr. Adnan Imeri.</p>
 </div>
 </div>
 
 <div class="research-card">
-<img src="{{ '/images/research/superfluidity.svg' | relative_url }}" class="research-thumb" width="400" height="200" alt="Superfluid helium">
 <div class="research-body">
-<h2 class="research-title">Superfluidity</h2>
-<p class="research-desc">Quantum mechanical explanation of the behavior of liquid helium near absolute zero. Using path integral methods, we developed a microscopic theory of the lambda transition and explained the energy spectrum of excitations in superfluid helium, including the roton minimum.</p>
+<h2 class="research-title">Selective Disclosure of Electronic Health Records</h2>
+<p class="research-desc">Secure, traceable transmission of electronic health records on the blockchain, with contextual access control and privacy protection through zero-knowledge smart contracts (ZKContract). The resulting prototype guarantees confidentiality, integrity and traceability of medical data and won the Shaker Genopole Challenge.</p>
 </div>
 </div>
 
 <div class="research-card">
-<img src="{{ '/images/research/partons.svg' | relative_url }}" class="research-thumb" width="400" height="200" alt="Parton model">
 <div class="research-body">
-<h2 class="research-title">Parton Model</h2>
-<p class="research-desc">A model describing the internal structure of hadrons in terms of point-like constituents called partons. This framework proved essential for interpreting deep inelastic scattering experiments at SLAC and laid the groundwork for quantum chromodynamics (QCD).</p>
+<h2 class="research-title">SDN-based Medical IoT Infrastructure</h2>
+<p class="research-desc">A secure infrastructure for collecting EHR data from medical IoT devices, with intelligent orchestration for autonomous, adaptive and user-centred Software-Defined Networks. It is evaluated in Mininet-WiFi over OpenFlow (D4Gen Hackathon project at IBISC).</p>
 </div>
 </div>
 
 <div class="research-card">
-<img src="{{ '/images/research/quantum-computing.svg' | relative_url }}" class="research-thumb" width="400" height="200" alt="Quantum circuit">
 <div class="research-body">
-<h2 class="research-title">Quantum Computing</h2>
-<p class="research-desc">Pioneering proposals for using quantum mechanical systems to perform computation. We demonstrated that classical computers cannot efficiently simulate quantum physics, motivating the development of quantum computers that exploit superposition and entanglement.</p>
+<h2 class="research-title">Language Agents for IoT Orchestration</h2>
+<p class="research-desc">LLMThings is an experimentation platform for orchestrating IoT systems with language agents, built with Anaïs Sadoudi and Dr. Massinissa Hamidi. It received the Best Presentation Award at JDSE 2026.</p>
 </div>
 </div>
 
 <div class="research-card">
-<img src="{{ '/images/research/nanotechnology.svg' | relative_url }}" class="research-thumb" width="400" height="200" alt="Atomic manipulation">
 <div class="research-body">
-<h2 class="research-title">Nanotechnology</h2>
-<p class="research-desc">Exploration of the physical possibilities of manipulating matter at the atomic scale. The talk "There's Plenty of Room at the Bottom" envisioned machines that could arrange atoms one by one, anticipating modern nanotechnology and molecular manufacturing.</p>
+<h2 class="research-title">Location Privacy in Multimodal Transportation</h2>
+<p class="research-desc">An adaptive privacy-preserving system for multimodal mobility trajectories that adjusts the level of protection to the user's context and mode of transport. Carried out at FEUP, Universidade do Porto, with Prof. Mariana Cunha and Prof. João P. Vilela.</p>
 </div>
 </div>
 
 <div class="research-card">
-<img src="{{ '/images/research/weak-interactions.svg' | relative_url }}" class="research-thumb" width="400" height="200" alt="Weak interaction diagram">
 <div class="research-body">
-<h2 class="research-title">Weak Interactions</h2>
-<p class="research-desc">Development of the V-A theory of the weak interaction with Murray Gell-Mann. This theory correctly predicted the structure of weak decays and was later incorporated into the electroweak unification by Weinberg, Salam, and Glashow.</p>
+<h2 class="research-title">Deep Reinforcement Learning for Edge-Cloud Systems</h2>
+<p class="research-desc">A multi-objective deep reinforcement learning algorithm for selecting edge-cloud servers. It improves network routing performance by more than 60% over traditional algorithms. Engineering thesis (graded 4/4) at the BKCS lab, HUST, with Prof. Tran Hai-Anh; published at IEEE Cloud Summit 2024.</p>
 </div>
 </div>
 
